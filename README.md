@@ -17,3 +17,8 @@ Connect pin from STM21F4 to the LCD as follow:
 - NWE to RW
 - A6 to RS
 - D0-D15 to D0-D15
+
+
+2. STM32F4 board
+The smaller microcontroller on the board is for debugger, it can convert from UART to USB.
+However, UART pins of the target CPU and the debugger CPU are not connected by default. So I need to connect Tx and Rx of UART. 
