@@ -11,3 +11,9 @@ When reading
   - WRX is always High
   - Latch by launching RDX
   - Although it is "Read", it is necessary to specify the address first, and then it is the same as Write.
+Connect pin from STM21F4 to the LCD as follow:
+- FSMC_NE1 to CS
+- NOE to RD
+- NWE to RW
+- A6 to RS
+- D0-D15 to D0-D15
