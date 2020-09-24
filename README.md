@@ -1,5 +1,8 @@
 # Digital_camera_with_STM32F4
 
+This project is about creating a digital camera using STM32F4 Discovery board. This camera can be used to display video, shooting image, shooting video, and image, video playback with is stored in a SD card.
+
+
 Tools
 1. Display LCD ILI9341 (TFT3.2-320x240) XPT2046 16bit parallel: 
 Datasheet: https://datasheetspdf.com/pdf-file/769801/ILITEK/ILI9341/1 and https://www.aliexpress.com/item/32746532235.html?spm=a2g0s.9042311.0.0.23694c4dm3x3zx
